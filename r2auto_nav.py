@@ -25,8 +25,8 @@ import cmath
 import time
 
 # constants
-rotatechange = 0.1
-speedchange = 0.05
+rotatechange = 0.5
+speedchange = 0.2
 occ_bins = [-1, 0, 100, 101]
 stop_distance = 0.25
 front_angle = 30
@@ -142,6 +142,7 @@ class AutoNav(Node):
         
         # get current yaw angle
         current_yaw = self.yaw
+        print(math.degrees(self.yaw))
         # log the info
         self.get_logger().info('Current: %f' % math.degrees(current_yaw))
         # we are going to use complex numbers to avoid problems when the angles go from
@@ -199,6 +200,7 @@ class AutoNav(Node):
             self.get_logger().info('No data!')
 
         # rotate to that direction
+        print(lr2i)
         self.rotatebot(float(lr2i))
 
         # start moving
