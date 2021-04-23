@@ -1,11 +1,15 @@
 **Main Files**
-Finalz.py - Final code use for the demo
+
+final.py - Final code use for the demo
+
 omrond6t.py - To test condition of thermal sensor
+
 combined.py - Subscriber to Finalz.py to receive angular change in barrel and command to fire
 r2auto_nav.py - Original r2auto_nav with firing mechanism only.
 
 
 **Objective:**
+
 The objective of this program is to navigate and map an unknown area of up to 8m x 8m. The mapped data will be converted to an occupancy map image and save. It is also required to locate, aim and fire at an infrared target within the map while the robot is navigating the map.
 
 **Autonomous Navigation:**
