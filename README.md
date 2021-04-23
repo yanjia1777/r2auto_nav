@@ -1,4 +1,4 @@
-Finalz.py - the final code use for the demo
+final.py - the final code use for the demo
 
 The objective of this program is to navigate and map an unknown area of up to 8m x 8m. The mapped data will be converted to an occupancy map image and save. It is also required to locate, aim and fire at an infrared target within the map while the robot is navigating the map.
 
