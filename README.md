@@ -8,6 +8,8 @@ combined.py - Subscriber to Finalz.py to receive angular change in barrel and co
 
 r2auto_nav.py - Original r2auto_nav with firing mechanism only.
 
+dcmotorsolenoid.py - To test dcmotor, servo solenoid and servo motor for changing the angle of the barrel
+
 
 **Objective:**
 
